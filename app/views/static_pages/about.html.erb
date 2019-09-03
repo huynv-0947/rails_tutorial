@@ -1,0 +1,11 @@
+<%  provide :title, t(".title") %>
+<hr><div align="center">
+  <%= link_to t("english"), locale: "en" %>
+  <%= link_to t("vietnam"), locale: "vi" %>
+  <h1><%= t ".title" %></h1>
+  <p>
+    <%= t("website") %>: <%= link_to t("website"), Settings.ruby_homepage_link %>
+  </p>
+    <%= t("book") %>: <%= link_to t("book"), Settings.ruby_bookpage_link %>
+  </p>
+</div>

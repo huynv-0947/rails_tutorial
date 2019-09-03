@@ -1,0 +1,13 @@
+vi:
+  static_pages:
+    home:
+      title: "Trang chủ"
+    about:
+      title: "Về chúng tôi"
+    help:
+      title: "Trợ giúp"
+  website: "Trang chủ của Ruby on Rails"
+  book: "Sách hướng dẫn học Ruby on Rails"
+  get_help: "Trợ giúp của Ruby on Rails"
+  english: "Tieng anh"
+  vietnam: "Tieng Viet"
