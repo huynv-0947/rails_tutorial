@@ -1,2 +1,13 @@
 en:
-  sampleapp: Sample app
+  static_pages:
+    home:
+      title: "Home page"
+    about:
+      title: "About us"
+    help:
+      title: "Help"
+  website: "Ruby on Rails Tutorial"
+  book: "Ruby on Rails Tutorial Book"
+  get_help: "Ruby on Rails Tutorial Help Page"
+  english: "English"
+  vietnam: "Vietnamese"
