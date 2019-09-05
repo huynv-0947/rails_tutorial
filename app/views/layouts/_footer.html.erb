@@ -1,0 +1,13 @@
+<footer class="footer">
+  <small>
+    <%= t("learn") %> <%= link_to t("ruby_on_rails"), Settings.ruby_homepage_link %>
+    <%= t("with") %> <%= link_to t("sun"), Settings.sun_trainingpage_link %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("about"), about_path %></li>
+      <li><%= link_to t("contact"), contact_path %></li>
+      <li><%= link_to t("news"), Settings.ruby_newspage_link %></li>
+    </ul>
+  </nav>
+</footer>
