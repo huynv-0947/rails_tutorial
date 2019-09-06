@@ -6,9 +6,26 @@ en:
       title: "About us"
     help:
       title: "Help"
+    contact:
+      title: "Contact"
+  user:
+    new:
+      title: "Sign up"
+      text: "Sign up page for user"
+  sun: "Sun*"
+  ruby_on_rails: "Ruby on Rails"
   website: "Ruby on Rails Tutorial"
   book: "Ruby on Rails Tutorial Book"
   get_help: "Ruby on Rails Tutorial Help Page"
+  contact: "Ruby on Rails Contact"
+  home: "Home"
+  about: "About us"
+  help: "Help"
+  contact: "Contact"
+  news: "News"
+  log_in: "Log in"
+  learn: "Learn"
+  with: "with"
   sub_title: "Ruby on Rails Tutorial"
   english: "English"
   vietnam: "Vietnamese"
