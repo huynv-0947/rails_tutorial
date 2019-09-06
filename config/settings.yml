@@ -1,3 +1,7 @@
+USER_NAME_MAX_LENGTH: 50
+USER_EMAIL_MAX_LENGTH: 255
+USER_PASSWORD_MIN_LENGTH: 6
+email_validate_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 ruby_homepage_link: "https://www.railstutorial.org"
 ruby_helppage_link: "https://www.railstutorial.org/help"
 ruby_bookpage_link: "https://www.railstutorial.org/book"
