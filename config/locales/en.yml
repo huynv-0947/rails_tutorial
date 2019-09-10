@@ -8,10 +8,20 @@ en:
       title: "Help"
     contact:
       title: "Contact"
-  user:
+  users:
     new:
       title: "Sign up"
-      text: "Sign up page for user"
+      user_name: "Name"
+      user_email: "Email"
+      user_password: "Password"
+      user_confirmation: "Confirmation"
+      button_submit: "Sign up"
+    show:
+      not_found_message: "<h1><i>Can't find user</i></h1>"
+      signup_message_success: "Welcome to Rails tutorital"
+  shared:
+    error_messages:
+      error: "error"
   sun: "Sun*"
   ruby_on_rails: "Ruby on Rails"
   website: "Ruby on Rails Tutorial"
@@ -27,5 +37,6 @@ en:
   learn: "Learn"
   with: "with"
   sub_title: "Ruby on Rails Tutorial"
+  user_not_found: "Can't find user"
   english: "English"
   vietnam: "Vietnamese"

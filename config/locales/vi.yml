@@ -8,10 +8,34 @@ vi:
       title: "Trợ giúp"
     contact:
       title: "Liên hệ"
-  user:
+  users:
     new:
-      title: "Đăng nhập"
-      text: "Người dùng đăng nhập tài khoản tại đây"
+      title: "Đăng ký"
+      user_name: "Họ tên"
+      user_email: "Email"
+      user_password: "Mật khẩu"
+      user_confirmation: "Xác nhận mật khẩu"
+      button_submit: "Đăng ký"
+    show:
+      not_found_message: "<h1><i>Không tìm thấy người dùng</i></h1>"
+      signup_message_success: "Chào mừng bạn đến với Rails tutorital"
+  shared:
+    error_messages:
+      error: "lỗi"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: "không được để trống"
+            email:
+              blank: "không được để trống"
+              invalid: "không đúng cú pháp"
+              taken: "đã được sử dụng"
+            password:
+              blank: "không được để trống"
+              too_short: "không được quá ngắn"
   sun: "Sun*"
   ruby_on_rails: "Ruby on Rails"
   website: "Trang chủ của Ruby on Rails"
@@ -27,5 +51,6 @@ vi:
   learn: "Học"
   with: "với"
   sub_title: "Học Ruby on Rails"
+  user_not_found: "Không tìm thấy người dùng yêu cầu"
   english: "Tiếng Anh"
   vietnam: "TIếng Việt"
