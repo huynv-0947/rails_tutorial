@@ -19,6 +19,11 @@ vi:
     show:
       not_found_message: "<h1><i>Không tìm thấy người dùng</i></h1>"
       signup_message_success: "Chào mừng bạn đến với Rails tutorital"
+  sessions:
+    new:
+      user_password: "Mật khẩu"
+      new_user_text: "Chưa có tài khoản?"
+      error_message: "Email/mật khẩu không đúng"
   shared:
     error_messages:
       error: "lỗi"
@@ -47,7 +52,11 @@ vi:
   help: "Giúp đỡ"
   contact: "Liên hệ"
   news: "Tin tức"
-  log_in: "Đăng nhập"
+  login: "Đăng nhập"
+  logout: "Đăng xuất"
+  setting: "Cài đặt"
+  profile: "Trang cá nhân"
+  signup: "Đăng ký"
   learn: "Học"
   with: "với"
   sub_title: "Học Ruby on Rails"

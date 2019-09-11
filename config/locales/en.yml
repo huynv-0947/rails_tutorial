@@ -19,6 +19,11 @@ en:
     show:
       not_found_message: "<h1><i>Can't find user</i></h1>"
       signup_message_success: "Welcome to Rails tutorital"
+  sessions:
+    new:
+      user_password: "Password"
+      new_user_text: "New user?"
+      error_message: "Invalid email/password combination"
   shared:
     error_messages:
       error: "error"
@@ -33,7 +38,11 @@ en:
   help: "Help"
   contact: "Contact"
   news: "News"
-  log_in: "Log in"
+  login: "Log in"
+  logout: "Log out"
+  setting: "Setting"
+  profile: "Profile"
+  signup: "Sign up"
   learn: "Learn"
   with: "with"
   sub_title: "Ruby on Rails Tutorial"
