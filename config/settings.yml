@@ -1,6 +1,9 @@
 USER_NAME_MAX_LENGTH: 50
 USER_EMAIL_MAX_LENGTH: 255
 USER_PASSWORD_MIN_LENGTH: 6
+USER_IMAGE_DEFAULT_SIZE: 80
+USER_IMAGE_ON_LIST_SIZE: 50
+USER_LIST_PER_PAGE: 10
 email_validate_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 ruby_homepage_link: "https://www.railstutorial.org"
 ruby_helppage_link: "https://www.railstutorial.org/help"
@@ -8,3 +11,4 @@ ruby_bookpage_link: "https://www.railstutorial.org/book"
 ruby_contactpage_link: "https://www.railstutorial.org/contact"
 ruby_newspage_link: "http://news.railstutorial.org"
 sun_trainingpage_link: "http://training.sun-asterisk.vn"
+gravatar_email_link: "http://gravatar.com/emails"
