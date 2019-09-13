@@ -1,7 +1,6 @@
 class UsersController < ApplicationController
   def show
-    @user = User.find_by(id: params[:id])
-    return if @user
+    return if @user = User.find_by(id: params[:id])
     flash[:danger] = t "user_not_found"
     redirect_to root_path
   end

@@ -24,6 +24,7 @@ vi:
       user_password: "Mật khẩu"
       new_user_text: "Chưa có tài khoản?"
       error_message: "Email/mật khẩu không đúng"
+      remember_me: "Nhớ đăng nhập"
   shared:
     error_messages:
       error: "lỗi"

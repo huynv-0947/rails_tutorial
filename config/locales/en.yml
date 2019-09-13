@@ -24,6 +24,7 @@ en:
       user_password: "Password"
       new_user_text: "New user?"
       error_message: "Invalid email/password combination"
+      remember_me: "Remember me"
   shared:
     error_messages:
       error: "error"
