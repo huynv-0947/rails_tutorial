@@ -19,6 +19,22 @@ en:
     show:
       not_found_message: "<h1><i>Can't find user</i></h1>"
       signup_message_success: "Welcome to Rails tutorital"
+    edit:
+      title: "Update profile"
+      user_name: "Name"
+      user_email: "Email"
+      user_password: "Password"
+      user_confirmation: "Confirmation"
+      button_save: "Save changes"
+      change_avatar: "Change"
+      update_message_success: "Profile updated"
+      login_request: "Please login"
+    index:
+      title: "Users"
+      confirm_delete: "Delele this user?"
+      delete_message_success: "Delete success"
+      delete_message_error: "Delete failed!!! Something went wrong"
+      delete: "Delete"
   sessions:
     new:
       user_password: "Password"
@@ -43,6 +59,7 @@ en:
   logout: "Log out"
   setting: "Setting"
   profile: "Profile"
+  list_users: "Users"
   signup: "Sign up"
   learn: "Learn"
   with: "with"

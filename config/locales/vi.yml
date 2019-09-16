@@ -19,6 +19,22 @@ vi:
     show:
       not_found_message: "<h1><i>Không tìm thấy người dùng</i></h1>"
       signup_message_success: "Chào mừng bạn đến với Rails tutorital"
+    edit:
+      title: "Cập nhật thông tin"
+      user_name: "Tên"
+      user_email: "Email"
+      user_password: "Mật khẩu"
+      user_confirmation: "Nhập lại mật khảua"
+      button_save: "Lưu thay đổi"
+      change_avatar: "Thay đổi"
+      update_message_success: "Cập nhật thành công"
+      login_request: "Bạn phải đăng nhập"
+    index:
+      title: "Danh sách người dùng"
+      confirm_delete: "Bạn có chắc muốn xóa người dùng này?"
+      delete_message_success: "Xóa người dùng thành công"
+      delete_message_error: "Xóa không thành công!!! Kiểm tra lại"
+      delete: "Xóa"
   sessions:
     new:
       user_password: "Mật khẩu"
@@ -57,6 +73,7 @@ vi:
   logout: "Đăng xuất"
   setting: "Cài đặt"
   profile: "Trang cá nhân"
+  list_users: "Danh sách người dùng"
   signup: "Đăng ký"
   learn: "Học"
   with: "với"
