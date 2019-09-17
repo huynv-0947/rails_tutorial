@@ -40,6 +40,7 @@ en:
       user_password: "Password"
       new_user_text: "New user?"
       error_message: "Invalid email/password combination"
+      not_found_error_message: "Can't found your email"
       remember_me: "Remember me"
   shared:
     error_messages:
@@ -65,5 +66,13 @@ en:
   with: "with"
   sub_title: "Ruby on Rails Tutorial"
   user_not_found: "Can't find user"
+  checkout_email_subject: "Account activation"
+  checkout_email_message: "Please checkout your email to activate account"
+  hi: "Hi"
+  hello_checkout_email: "Welcome to the Sun*! Click on the link below to activate your account:"
+  activate: "Activate"
+  account_not_activate_message: "Account not activated. Check your email for the activation link."
+  account_activate_message: "Account activated"
+  invalid_activate_link: "Invalid activate link"
   english: "English"
   vietnam: "Vietnamese"

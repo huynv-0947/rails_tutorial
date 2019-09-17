@@ -40,6 +40,7 @@ vi:
       user_password: "Mật khẩu"
       new_user_text: "Chưa có tài khoản?"
       error_message: "Email/mật khẩu không đúng"
+      not_found_error_message: "Không tìm thấy email của bạn"
       remember_me: "Nhớ đăng nhập"
   shared:
     error_messages:
@@ -79,5 +80,13 @@ vi:
   with: "với"
   sub_title: "Học Ruby on Rails"
   user_not_found: "Không tìm thấy người dùng yêu cầu"
+  checkout_email_subject: "Kích họat tài khoản"
+  checkout_email_message: "Kiểm tra và kích hoạt tài khoản bằng email"
+  hi: "Chào"
+  hello_checkout_email: "Chào mừng bạn đến với Sun*! Nháy chuột vào đường dẫn sau để kích hoạt tài khoản của bạn:"
+  activate: "Kích hoạt tài khoản"
+  account_not_activate_message: "Tài khoản chưa được kích hoạt. Kiếm tra lại email của bạn"
+  account_activate_message: "Tài khoản được kích hoạt"
+  invalid_activate_link: "Đường dẫn kích hoạt không hợp lệ"
   english: "Tiếng Anh"
   vietnam: "TIếng Việt"
