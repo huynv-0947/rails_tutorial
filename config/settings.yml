@@ -4,6 +4,7 @@ USER_PASSWORD_MIN_LENGTH: 6
 USER_IMAGE_DEFAULT_SIZE: 80
 USER_IMAGE_ON_LIST_SIZE: 50
 USER_LIST_PER_PAGE: 10
+TRUE_REMEMBER_VALUE: 1
 email_validate_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 ruby_homepage_link: "https://www.railstutorial.org"
 ruby_helppage_link: "https://www.railstutorial.org/help"
