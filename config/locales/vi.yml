@@ -41,7 +41,20 @@ vi:
       new_user_text: "Chưa có tài khoản?"
       error_message: "Email/mật khẩu không đúng"
       not_found_error_message: "Không tìm thấy email của bạn"
+      forgot_password: "Quên mật khẩu?"
       remember_me: "Nhớ đăng nhập"
+  password_resets:
+    new:
+      title: "Đặt lại mật khẩu"
+      submit_btn: "Gửi"
+      password_reset_email: "Email đã gửi để đặt lại mật khẩu"
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirm: "Nhập lại mật khẩu"
+      submit_btn: "Cập nhật mật khẩu"
+      empty_password_error: "Mật khẩu không được để trống"
+      password_reset_done: "Mật khẩu đã được cập nhật"
   shared:
     error_messages:
       error: "lỗi"
@@ -82,6 +95,11 @@ vi:
   user_not_found: "Không tìm thấy người dùng yêu cầu"
   checkout_email_subject: "Kích họat tài khoản"
   checkout_email_message: "Kiểm tra và kích hoạt tài khoản bằng email"
+  password_reset: "Đặt lại mật khẩu"
+  password_reset_message: "Truy cập đường dẫn sau để đặt lại mật khẩu"
+  password_reset_expired: "Đường dẫn sẽ hết hiệu lực trong vòng 2 giờ tới"
+  password_reset_invalid: "Tài khoản chưa kích hoạt/Lỗi khi reset mật khẩu"
+  not_found_email: "Không tìm thấy email của bạn"
   hi: "Chào"
   hello_checkout_email: "Chào mừng bạn đến với Sun*! Nháy chuột vào đường dẫn sau để kích hoạt tài khoản của bạn:"
   activate: "Kích hoạt tài khoản"

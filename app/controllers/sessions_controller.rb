@@ -33,7 +33,7 @@ class SessionsController < ApplicationController
 
   def login_with_user_activated
     log_in @user
-    @sessions[:remember_me] == Settings.TRUE_REMEMBER_VALUE ? remember(@user) : forget(@user)
+    @sessions[:remember_me] == Settings.TRUE ? remember(@user) : forget(@user)
     redirect_back_or @user
   end
 

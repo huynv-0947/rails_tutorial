@@ -41,7 +41,20 @@ en:
       new_user_text: "New user?"
       error_message: "Invalid email/password combination"
       not_found_error_message: "Can't found your email"
+      forgot_password: "Forgot password?"
       remember_me: "Remember me"
+  password_resets:
+    new:
+      title: "Password reset"
+      submit_btn: "Submit"
+      password_reset_email: "Email sent with password reset instructions"
+    edit:
+      title: "Password reset"
+      password: "Password"
+      password_confirm: "Password confirmation"
+      submit_btn: "Update password"
+      empty_password_error: "Password can't be empty"
+      password_reset_done: "Password has been reset"
   shared:
     error_messages:
       error: "error"
@@ -68,6 +81,12 @@ en:
   user_not_found: "Can't find user"
   checkout_email_subject: "Account activation"
   checkout_email_message: "Please checkout your email to activate account"
+  password_reset: "Password reset"
+  password_reset_message: "To reset your password click the link below:"
+  password_reset_expired: "This link will expire in two hours."
+  password_expired: "Password has been expired"
+  password_reset_invalid: "Account invalid/Password reset failed"
+  not_found_email: "Email address not found"
   hi: "Hi"
   hello_checkout_email: "Welcome to the Sun*! Click on the link below to activate your account:"
   activate: "Activate"
