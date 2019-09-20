@@ -4,6 +4,11 @@ USER_PASSWORD_MIN_LENGTH: 6
 USER_IMAGE_DEFAULT_SIZE: 80
 USER_IMAGE_ON_LIST_SIZE: 50
 USER_LIST_PER_PAGE: 10
+POST_CONTENT_MAX: 140
+POST_LIST_PER_PAGE: 5
+POST_IMAGE_SIZE: 50
+POST_PICTURE_MAX: 5
+POST_PICTURE_ACCEPT: "image/jpeg,image/gif,image/png"
 TRUE: 1
 EXPIRED_TIME: 2
 email_validate_regex: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
