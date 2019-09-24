@@ -9,7 +9,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    @microposts = @user.microposts.page(params[:page]).per Settings.POST_LIST_PER_PAGE
+    @microposts = @user.microposts.page(params[:page]).per Settings.POST_PAGE
   end
 
   def new

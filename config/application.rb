@@ -10,5 +10,6 @@ module RailsTutorial
     config.i18n.default_locale = :en
     config.i18n.available_locales = %w(en vi)
     config.middleware.use I18n::JS::Middleware
+    config.action_view.embed_authenticity_token_in_remote_forms = true
   end
 end

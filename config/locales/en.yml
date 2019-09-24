@@ -58,6 +58,9 @@ en:
   shared:
     error_messages:
       error: "error"
+    stats:
+      following: "Following"
+      follower: "Follower"
   sun: "Sun*"
   ruby_on_rails: "Ruby on Rails"
   website: "Ruby on Rails Tutorial"
@@ -83,6 +86,7 @@ en:
   text_post_placeholder: "Compose new micropost..."
   sub_title: "Ruby on Rails Tutorial"
   user_not_found: "Can't find user"
+  relationship_not_found: "Can't find relationship"
   checkout_email_subject: "Account activation"
   checkout_email_message: "Please checkout your email to activate account"
   password_reset: "Password reset"
@@ -109,3 +113,5 @@ en:
   english: "English"
   vietnam: "Vietnamese"
   image_too_large: "You file bigger than 5MB!"
+  follow: "Follow"
+  unfollow: "Unfollow"
