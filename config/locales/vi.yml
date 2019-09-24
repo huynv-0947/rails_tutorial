@@ -58,6 +58,9 @@ vi:
   shared:
     error_messages:
       error: "lỗi"
+    stats:
+      following: "Đang theo dõi"
+      follower: "Theo dõi bạn"
   activerecord:
     errors:
       models:
@@ -116,6 +119,7 @@ vi:
   text_post_placeholder: "Viết bài..."
   sub_title: "Học Ruby on Rails"
   user_not_found: "Không tìm thấy người dùng yêu cầu"
+  relationship_not_found: "Không tìm thấy liên hệ này"
   checkout_email_subject: "Kích họat tài khoản"
   checkout_email_message: "Kiểm tra và kích hoạt tài khoản bằng email"
   password_reset: "Đặt lại mật khẩu"
@@ -141,3 +145,5 @@ vi:
   english: "Tiếng Anh"
   vietnam: "TIếng Việt"
   image_too_large: "File lớn hơn 5MB!"
+  follow: "Theo dõi"
+  unfollow: "Bỏ theo dõi"
